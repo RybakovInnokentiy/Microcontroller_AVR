@@ -9,8 +9,9 @@
 
 #include "LCD.h"
 #include "I2C.h"
+#include <util/delay.h>
 
-extern unsigned char portlcd;
+extern unsigned char portlcd = 0x00;
 
 void sendhafbyte(unsigned char data){
 	data <<= 4;
