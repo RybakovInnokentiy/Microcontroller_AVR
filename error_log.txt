@@ -1,0 +1,10 @@
+Severity	Code	Description	Project	File	Line
+Error		undefined reference to `_delay_ms'	Diplom	C:\Users\Kesha\Documents\Atmel Studio\7.0\Diplom\Diplom\LCD.c	43
+Error		recipe for target 'Diplom.elf' failed	Diplom	C:\Users\Kesha\Documents\Atmel Studio\7.0\Diplom\Diplom\Debug\Makefile	142
+Error		undefined reference to `_delay_us'	Diplom	C:\Users\Kesha\Documents\Atmel Studio\7.0\Diplom\Diplom\LCD.c	18
+Error		undefined reference to `_delay_us'	Diplom	C:\Users\Kesha\Documents\Atmel Studio\7.0\Diplom\Diplom\LCD.c	21
+Error		undefined reference to `_delay_ms'	Diplom	C:\Users\Kesha\Documents\Atmel Studio\7.0\Diplom\Diplom\LCD.c	48
+Error		undefined reference to `_delay_ms'	Diplom	C:\Users\Kesha\Documents\Atmel Studio\7.0\Diplom\Diplom\LCD.c	50
+Error		undefined reference to `_delay_ms'	Diplom	C:\Users\Kesha\Documents\Atmel Studio\7.0\Diplom\Diplom\LCD.c	52
+Error		undefined reference to `_delay_ms'	Diplom	C:\Users\Kesha\Documents\Atmel Studio\7.0\Diplom\Diplom\LCD.c	54
+Error		ld returned 1 exit status	Diplom	collect2.exe	0
