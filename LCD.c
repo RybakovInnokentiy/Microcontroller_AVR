@@ -17,7 +17,7 @@ void sendhafbyte(unsigned char data){
 	data <<= 4;
 	e1;
 	_delay_us(400);
-	I2C_SendByteByAddress(portlcd|data, 0b01001110);
+	I2C_SendByteByAddress(portlcd|data, 0b01001110); 
 	e0;
 	_delay_us(400);
 }
