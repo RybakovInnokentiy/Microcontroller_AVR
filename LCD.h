@@ -17,6 +17,7 @@ void sendchar(unsigned char data);
 void LCD_Init();
 
 
+
 #define e1 I2C_SendByteByAddress(portlcd|=0x04,0b01001110) // установка линии E в 1
 #define e0 I2C_SendByteByAddress(portlcd&=~0x04,0b01001110) // установка линии E в 0
 #define data_trans_rs1() I2C_SendByteByAddress(portlcd|=0x01,0b01001110) // установка линии RS в 1
